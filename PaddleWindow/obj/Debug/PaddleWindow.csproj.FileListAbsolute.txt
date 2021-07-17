@@ -1,0 +1,17 @@
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.csprojAssemblyReference.cache
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\App.g.cs
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow_MarkupCompile.cache
+G:\VSProject\VSIX\PaddleWindow\bin\Debug\PaddleWindow.exe
+G:\VSProject\VSIX\PaddleWindow\bin\Debug\PaddleWindow.pdb
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\MainWindow.g.cs
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow_MarkupCompile.lref
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\MainWindow.baml
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.g.resources
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.Properties.Resources.resources
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.csproj.GenerateResource.cache
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.csproj.CoreCompileInputs.cache
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.exe
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.pdb
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleControl.g.cs
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleControl.baml
