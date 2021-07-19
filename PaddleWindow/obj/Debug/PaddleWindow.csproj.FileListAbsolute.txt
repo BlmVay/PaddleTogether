@@ -1,4 +1,3 @@
-G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.csprojAssemblyReference.cache
 G:\VSProject\VSIX\PaddleWindow\obj\Debug\App.g.cs
 G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow_MarkupCompile.cache
 G:\VSProject\VSIX\PaddleWindow\bin\Debug\PaddleWindow.exe
@@ -15,3 +14,4 @@ G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.exe
 G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.pdb
 G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleControl.g.cs
 G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleControl.baml
+G:\VSProject\VSIX\PaddleWindow\obj\Debug\PaddleWindow.csprojAssemblyReference.cache

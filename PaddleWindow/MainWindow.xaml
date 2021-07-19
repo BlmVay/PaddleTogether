@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PaddleWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Height="200" Width="300"
+        Background="#FF4E3A3A"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <local:PaddleControl></local:PaddleControl>
     </Grid>

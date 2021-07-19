@@ -27,7 +27,11 @@
         },
         "frameworks": {
           "net472": {
-            "projectReferences": {}
+            "projectReferences": {
+              "G:\\VSProject\\VSIX\\PaddleWindow\\PaddleWindow.csproj": {
+                "projectPath": "G:\\VSProject\\VSIX\\PaddleWindow\\PaddleWindow.csproj"
+              }
+            }
           }
         }
       },
@@ -56,6 +60,16 @@
         "win-x86": {
           "#import": []
         }
+      }
+    },
+    "G:\\VSProject\\VSIX\\PaddleWindow\\PaddleWindow.csproj": {
+      "restore": {
+        "projectUniqueName": "G:\\VSProject\\VSIX\\PaddleWindow\\PaddleWindow.csproj",
+        "projectName": "PaddleWindow",
+        "projectPath": "G:\\VSProject\\VSIX\\PaddleWindow\\PaddleWindow.csproj"
+      },
+      "frameworks": {
+        "net40": {}
       }
     }
   }

@@ -1247,6 +1247,15 @@
         "runtime": {
           "lib/net10/_._": {}
         }
+      },
+      "PaddleWindow/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/PaddleWindow.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaddleWindow.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.7.2/win": {
@@ -2470,6 +2479,15 @@
         },
         "runtime": {
           "lib/net10/_._": {}
+        }
+      },
+      "PaddleWindow/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/PaddleWindow.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaddleWindow.dll": {}
         }
       }
     },
@@ -3695,6 +3713,15 @@
         "runtime": {
           "lib/net10/_._": {}
         }
+      },
+      "PaddleWindow/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/PaddleWindow.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaddleWindow.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.7.2/win-x86": {
@@ -4918,6 +4945,15 @@
         },
         "runtime": {
           "lib/net10/_._": {}
+        }
+      },
+      "PaddleWindow/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/PaddleWindow.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaddleWindow.dll": {}
         }
       }
     }
@@ -6970,12 +7006,18 @@
         "vslangproj90.9.0.30730.nupkg.sha512",
         "vslangproj90.nuspec"
       ]
+    },
+    "PaddleWindow/1.0.0": {
+      "type": "project",
+      "path": "../PaddleWindow/PaddleWindow.csproj",
+      "msbuildProject": "../PaddleWindow/PaddleWindow.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
       "Microsoft.VSSDK.BuildTools >= 16.9.2016",
-      "Microsoft.VisualStudio.SDK >= 16.0.206"
+      "Microsoft.VisualStudio.SDK >= 16.0.206",
+      "PaddleWindow >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7004,7 +7046,11 @@
       },
       "frameworks": {
         "net472": {
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\VSProject\\VSIX\\PaddleWindow\\PaddleWindow.csproj": {
+              "projectPath": "G:\\VSProject\\VSIX\\PaddleWindow\\PaddleWindow.csproj"
+            }
+          }
         }
       }
     },

@@ -1,17 +1,40 @@
 ﻿<UserControl x:Class="PaddleWindow.PaddleControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:PaddleWindow"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
     <Grid>
-        <Button Content="Button"
-                HorizontalAlignment="Left"
-                Margin="215,180,0,0"
-                VerticalAlignment="Top"
-                Width="390"
-                Height="110" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Column="0"
+                 BorderBrush="{x:Null}"
+                 BorderThickness="0"
+                 TextWrapping="Wrap"
+                 x:Name="novelLabel"
+                 Margin="5"
+                 IsReadOnly="True"
+                 Foreground="#FFF0EFF1"
+                 Background="{x:Null}"
+                 ScrollViewer.CanContentScroll="True"></TextBox>
+        <StackPanel x:Name="leftPanel"
+                    Orientation="Horizontal"
+                    Margin="0">
+            <ListBox x:Name="chapterListBox"
+                     HorizontalAlignment="Left"
+                     VerticalAlignment="Top"
+                     Width="250"
+                     ScrollViewer.VerticalScrollBarVisibility="Visible"
+                     Background="#FF252526"
+                     Foreground="#FFF1F2F7"></ListBox>
+            <Button Height="30"
+                    x:Name="leftControlBtn"
+                    Click="leftControlBtn_Click"
+                    Content="&lt;"></Button>
+        </StackPanel>
     </Grid>
 </UserControl>
